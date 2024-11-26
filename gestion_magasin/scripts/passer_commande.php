@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $commande->sauvegarder();
 
     echo "Commande passée avec succès !";
-    echo '<br><a href="../index.php">Retour à l\'accueil</a>';
+    echo '<br><a href="../index.php" class="btn">Retour à l\'accueil</a>';
 
     echo "<h2>Détails de la Commande</h2>";
     echo "<p>Client : " . $commande->getClient()->getNom() . "</p>";

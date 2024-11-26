@@ -17,7 +17,7 @@ if (isset($_GET['commande_id'])) {
     }
     echo "</ul>";
     echo "<p>Total de la commande : " . ($commande->getTotalCommande() / 100) . " €</p>";
-    echo "<a href='../index.php' class='btn'>Retour à l'accueil</a>"; 
+    echo "<a href='../index.php' class='btn'>Retour à l'accueil</a>";
 } else {
     echo "<form method='get' action='afficher_commande.php'>";
     echo "<label for='commande_id'>Sélectionnez l'ID de la commande :</label>";
@@ -29,8 +29,8 @@ if (isset($_GET['commande_id'])) {
     }
 
     echo "</select>";
-    echo "<input type='submit' value='Afficher la Commande'>";
+    echo "<input type='submit' value='Afficher la Commande' class='btn'>";
     echo "</form>";
-    echo "<a href='../index.php' class='btn'>Retour à l'accueil</a>"; 
+    echo "<a href='../index.php' class='btn'>Retour à l'accueil</a>";
 }
 ?>

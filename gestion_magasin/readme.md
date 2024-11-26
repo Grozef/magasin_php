@@ -21,7 +21,7 @@ Ce projet est une application de gestion de magasin en PHP orienté objet avec u
 - clonez ou copiez le dossier dans le repertoire www de Laragon
 - allez a l'emplacement du gestionnaire de magasin avec la commande cd C:\laragon\www\php\gestion_magasin dans le terminal
 - ( vous etes qqun de bien,  je sais que vous utilisez laragon sinon faites pareil avec le repertoire htdocs dans xamp)
-3. Accédez à `index.php` pour commencer à utiliser l'application.
+3. Accédez à `index.php` pour commencer à utiliser l'application:
 - lancez le serveur php avec la commande suivante php -S localhost:8000
 - ouvrez un navigateur web et allez sur localhost:8000
 

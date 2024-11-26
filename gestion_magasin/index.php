@@ -12,6 +12,8 @@
         <li><a href="forms/ajouter_client.html">Ajouter un Client</a></li>
         <li><a href="forms/passer_commande.php">Passer une Commande</a></li>
         <li><a href="scripts/afficher_commande.php?">Afficher une Commande</a></li>
+        <li><a href="scripts/afficher_produits.php">Afficher les Produits</a></li>
+        <li><a href="scripts/afficher_clients.php">Afficher les Clients</a></li>
     </ul>
 </body>
 </html>

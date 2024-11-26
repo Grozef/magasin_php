@@ -31,8 +31,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $produit->sauvegarder();
 
     echo "Produit ajouté avec succès !";
-
     header("refresh:2;url=../index.php");
-    
 }
 ?>

@@ -11,7 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $client->sauvegarder();
 
     echo "Client ajouté avec succès !";
-
-    echo '<br><a href="../index.php">Retour à l\'accueil</a>';
+    echo '<br><a href="../index.php" class="btn">Retour à l\'accueil</a>';
 }
 ?>
